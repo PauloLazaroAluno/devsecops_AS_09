@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contato</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <header>
+    <img src="https://cdn-icons-png.flaticon.com/512/8531/8531920.png" alt="Logo ovelha fofa" />
+    <h1>Roupas para Ovelhas Calvas</h1>
+  </header>
+  <nav>
+    <a href="/">Início</a>
+    <a href="sobre">Sobre Nós</a>
+    <a href="produtos">Produtos</a>
+  </nav>
+  <section>
+    <h2>Fale Conosco</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required />
+      <input type="email" placeholder="Seu e-mail" required />
+      <textarea rows="4" placeholder="Sua mensagem para o rebanho" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <div class="whatsapp">
+      <p>Ou fale conosco pelo WhatsApp:</p>
+      <a href="https://wa.me/5511999999999" target="_blank">📱 +55 11 99999-9999</a>
+    </div>
+  </section>
+  <footer>© 2025 Roupas para Ovelhas Calvas</footer>
+</body>
+</html>
